@@ -22,7 +22,7 @@ public class Ilm{
 			if(arg.length>1){sademed=Integer.parseInt(arg[1]);}
 		} catch(Exception e){
 			//kasutab kujul njava Ilm [temperatuur] [sademed]
-			System.out.println("java Ilm 25 10");
+			System.out.println("java Ilm -15 2");
 			return;
 		}	
 		System.out.println(kooliminekuHinnang(temperatuur));
