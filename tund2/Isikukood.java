@@ -27,5 +27,13 @@ public class Isikukood{
 			return 2000 + aastanr();
 		}
 		return -1;
-	}	
+	}
+	//teine lahendamismoodus
+	/*public int aastaarv4kohta(){
+		return(18+(Integer.parseInt(andmed.substring(0, 1))-1)/2)*100+Integer.parseInt(andmed.substring(1, 3));
+	}	*/
+	@Override
+	public String toString(){
+		return päevanr()+". "+kuunimi()+" "+ aastaarv4kohta();
+	}
 }
